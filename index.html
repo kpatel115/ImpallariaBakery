@@ -10,12 +10,48 @@
   <body>
     <header>
       <h1></h1>
-      <nav></nav>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Bakery</li>
+          <li>Cafe</li>
+          <li>Deli</li>
+          <li>Alcohol</li>
+        </ul>
+      </nav>
     </header>
     <main>
       <!--Slideshow-->
+      <section class="slideshow">
+        <figure>
+          <img id="slides" name="slide" width="400" height="200">
+          <figcaption>
+            <h2>We offer only the most delightful italian bakery items.</h2>
+            <p>Find us at 31st and Wallace!</p>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="About">
 
-      <!--Short Description and paragraph-->
+      </section>
+      <section class="Contact">
+        <form>
+          <h2>Have a Request? Let us know!</h2>
+          <p>What kind of request are you making?</p>
+          <select name="request">
+            <option value="review">Review</option>
+            <option value="order">Order Request</option>
+            <option value="question">Question</option>
+          </select>
+          <textarea name="text" cols="20" rows="6">Enter your request...</textarea>
+
+          <h2>Interested in our newsletter?</h2>
+          <p>Subscribe to our email list</p>
+          <input type="text" name="email" placeholder="Email Address"/>
+          <input type="submit" name="subscribe" value="Subscribe"/>
+        </form>
+      </section>
     </main>
 	<script src="js/script.js"></script>
   </body>
